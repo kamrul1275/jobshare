@@ -1,0 +1,156 @@
+
+
+<!-- slider part start -->
+
+
+<div class="slider-box">
+	<div class="container">
+		
+ <strong><h1 class="text-center ">Crowd favorites</h1> </strong>
+		<strong><p class="text-center ">Here are some of our most popular projects:</p> </strong>
+
+
+
+<div id="demo"  class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/web1.jpg" class="img-fluid rounded-circle "></a>
+		 
+ 
+               <h3 class="text-center">web design</h3>
+            </div>
+	     </div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/web2.jpg" class="img-fluid rounded-circle "></a>
+		 
+           
+               <h3 class="text-center">Graphics design</h3>
+
+            </div>
+	     </div>
+	   
+
+	     <div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/logo1.jpg" class="img-fluid rounded-circle "></a>
+		 
+            
+               <h3 class="text-center">Logo design</h3>
+            </div>
+	     </div>
+
+    </div>
+    </div>
+
+
+    
+    <div class="carousel-item">    
+<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/logo2.png" class="img-fluid rounded-circle"></a>
+		 
+           
+               <h3 class="text-center">banner design</h3>
+
+
+            </div>
+	     </div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/graphics1.jpg" class="img-fluid rounded-circle"></a>
+		 
+            
+               <h3 class="text-center"> Print design</h3>
+
+
+            </div>
+	     </div>
+	     <div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/logo1.jpg" class="img-fluid rounded-circle"></a>
+		 
+            
+               <h3 class="text-center">content writing</h3>
+
+
+            </div>
+	     </div>
+
+
+    </div>
+    </div>
+    <div class="carousel-item">
+     
+
+
+     
+<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/logo1.jpg" class="img-fluid rounded-circle"></a>
+		 
+             <p class="text-center">Design & Creative</p>
+               <h3 class="text-center">Video Animation design</h3>
+
+
+            </div>
+	     </div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/logo1.jpg" class="img-fluid rounded-circle "></a>
+		 
+             <p class="text-center">Design & Creative</p>
+               <h3 class="text-center">photography </h3>
+
+
+            </div>
+	     </div>
+	     <div class="col-lg-4 col-md-4 col-sm-12">
+		 <div class="box">
+		 	<a href="#"> <img src="img/work/logo1.jpg" class="img-fluid rounded-circle "></a>
+		 
+             <p class="text-center">Design & Creative</p>
+               <h3 class="text-center">Data Entry</h3>
+
+
+            </div>
+	     </div>
+
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</div>
+
+	</div>
+</div>
+</div>
+
+
+<!-- slider part start -->

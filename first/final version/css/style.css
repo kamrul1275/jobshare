@@ -1,0 +1,626 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+body{
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+
+}
+
+
+
+p{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+text-transform: capitalize;
+
+}
+
+
+/*Social icon Start*/
+
+.social-icon ul{
+	margin: 0px;
+	
+	padding: 0px;
+
+
+}
+.social-icon ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin:0 7px;
+
+
+}
+.social-icon ul li a{
+	background:white;
+	color:black;
+	border-radius: 3px;
+	display: block;
+	padding: 5px;
+	transition: 0.5s
+}
+.social-icon ul li a:hover{
+	
+background:red;
+border-radius: 3px;
+color:white;
+}
+
+.social-icon ul li a:hover .fab{
+	
+transform: rotateX(360deg);
+transition: 0.5s
+
+}
+
+/*Social icon End*/
+
+/*start core man icon*/
+.coreman-icon ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.coreman-icon ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin:0 5px;
+
+}
+
+.coreman-icon ul li a{
+	background:blue;
+	color:white;
+	border-radius: 3px;
+	display: block;
+	padding: 2px;
+	transition: 0.5s;
+	
+}
+.coreman-icon ul li a:hover{
+	
+background:red;
+border-radius: 3px;
+color:black;
+
+}
+
+
+
+.google-icon ul li a{
+	background:red;
+	color:white;
+	border-radius: 3px;
+	display: block;
+	padding: 2px;
+	transition: 0.5s
+}
+
+
+
+
+/*Header area start*/
+
+
+.Slider{
+	
+	 margin-top: -24px;
+}
+
+.Header{
+	 
+	background: #0cd0f2;
+	 text-shadow: 3px 3px 6px black;
+	  box-shadow: 2px 2px 4px #1ac92f;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+	
+	transition: all linear .3s;
+	margin-top: 10px;
+	padding: 10px;
+	 font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+   color:white;
+    
+}
+
+
+
+ .navbar-light .navbar-nav .nav-link:hover{
+color:white;
+background:#06cf0d;
+border-radius: 5px;
+
+
+}
+
+
+/*Header area end*/
+
+
+/*start main-icon area*/
+
+.main-icon-hob:hover{
+
+	transform: scale(1.1);
+	transition: all ease 1s;
+
+}
+
+
+
+/*End main-icon area*/
+
+
+
+
+
+
+/*Start Artical part*/
+.Airtical-contain h2{
+	background: red;
+	color: #ffffff;
+font-family: 'PT Sans', sans-serif;
+font-size: 30;
+}
+
+.Airtical p{
+font-size: 16px;
+
+
+}
+
+/*end Artical part*/
+
+
+
+
+
+/*Servies area start*/
+
+
+.ser-heading h1{
+	font-size:50px;
+	font-weight: 
+
+ color: white;
+  text-shadow: 2px 2px 4px red;
+}
+
+
+.card p{
+	color: black;
+font-weight: 700;
+}
+
+
+
+ 
+
+
+.card:hover{
+	
+	transition: all ease 0.5s;
+	border: 2px solid red;
+}
+
+
+
+
+.card h4:hover{
+	background:green;
+	color: white;
+	border-radius: 2px;
+
+}
+
+/*services area end*/
+
+
+/*About US Start*/
+
+
+.about-heading h2{
+font-size: 40px;
+padding: 10px;
+ font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+
+}
+
+
+
+.about-details p{
+padding: 10px;
+font-size: 16px;
+text-align: justify;
+
+}
+
+/*About US Start*/
+
+
+/*main sicon section*/
+.Create-Main-Secton .fa{
+	color: white;
+	background: blue;
+	padding: 4px;
+	border-radius:5px;
+}
+
+
+.main-icon .fa{
+	font-size: 50px;
+	padding: 10px;
+}
+.main-icon .fas{
+	font-size: 50px;
+	padding: 10px;
+}
+
+
+
+/*get start*/
+.get-start{
+	background: url('../img/last/soft3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	
+}
+ .dark-overlay{
+	background-color: #343a40b5;
+	width: 100%;
+	height: 100%;
+
+
+}
+/*get End*/
+
+
+
+/*Home Video Start*/
+
+
+.home-video{
+
+background: url('../img/photo gullery/get1.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	
+background-repeat:no-repeat;
+	min-height:250px;
+}
+ .dark-overlay{
+	background-color: #343a40b5;
+	
+}
+.home-video .dark-overlay  .fab{
+	font-size: 50px;
+	
+
+}
+/*Home Video End*/
+
+
+
+
+
+
+/*photo gallery start*/
+
+.photo-gallery img{
+min-height: 250px;
+}
+
+.photo-gallery h2{
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+.photo-gallery p{
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+.photo-card:hover{
+
+	transform: scale(1.1);
+	transition: all ease 1s;
+
+}
+
+.photo-card:hover{
+
+	transform: scale(1.1);
+	transition: all ease 1s;
+
+}
+
+
+
+
+/*photo gallery end*/
+
+.Create-Secton{
+
+
+background:
+
+}
+
+
+
+
+
+/*page header*/
+
+.page-header
+{
+background: url('../img/page2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+
+.headerpage-info{
+box-shadow: 2px 2px 5px green;
+
+}
+
+
+
+
+
+.headerpage-info img{
+	width: 350px;
+	height: 350px;
+	
+	}
+
+
+
+
+
+
+.Services-area h2{
+  color: red;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+/*/services start*/
+/*end*/
+
+.proud h2 {
+margin-top: 20px;
+text-transform: uppercase;
+color: gold;
+font-size: 30px;
+font-family: system-ui;
+}
+.experincs-area h3{
+margin-top: 20px;
+text-transform: uppercase;
+color: blue;
+font-size: 30px;
+font-family: system-ui;
+}
+.web-design-area h2 {
+margin-top: 20px;
+text-transform: uppercase;
+color: green;
+font-size: 30px;
+font-family: system-ui;
+}
+
+
+
+.Contact-page-header
+{
+background: url('../img/last/soft3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 300px;
+}
+.Blog-page
+{
+background: url('../img/blog-pic/mobile2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	margin-top: -24px;
+}
+
+.Contact-page-header
+{
+background: url('../img/services-icon/services11.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 300px;
+}
+/*page header end*/
+
+
+ .experincs-sign .fa{
+	color: white;
+	background: blue;
+	padding: 4px;
+	border-radius:5px;
+	
+}
+
+/*experincs-area*/
+.experincs-area{
+	box-shadow: 2px 2px 5px red;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+/*brands*/
+
+
+
+
+.single-brand:hover{
+	transform: scale(1.2);
+	transition: all ease 1s;
+	
+}
+
+/*brands end*/
+
+/*tap area start*/
+
+
+
+
+
+
+/*tap area start*/
+
+.hosting-title h1 {
+
+	background:#ff0080;
+	padding: 10px;
+}
+
+
+.all-Blog{
+	padding: 2px 5px;
+	border-radius: solid 1px red;
+	
+}
+
+
+/*start all blog*/
+.all-Blog a h6{
+	display: inline-block;
+	text-decoration: none;
+	margin:0 5px;
+
+
+}
+ .all-Blog a h6{
+	background:green;
+	font-size: 18px;
+	border-radius: 3px;
+	display: block;
+	padding: 5px;
+	transition: 0.5s
+}
+.all-Blog a:hover h6{
+	
+background:red;
+border-radius: 3px;
+color:white;
+}
+/*end*/
+
+
+
+
+/*photo gallery start*/
+
+.Mobile-Photo-Gallery img{
+min-height: 250px;
+}
+
+.Mobile-photo-gallery h2{
+  color: #09e2ed;
+ text-shadow: 3px 3px 6px gold;
+
+}
+
+.Mobile-photo-gallery p{
+ color: black;
+ text-shadow: 3px 3px 6px gold;
+
+}
+
+.photo-card:hover{
+
+	transform: scale(1.1);
+	transition: all ease 1s;
+
+}
+
+.photo-card:hover{
+
+	transform: scale(1.1);
+	transition: all ease 1s;
+
+}
+
+
+/*..........*/
+
+.subscribe-us-area{
+box-shadow: 2px 2px 5px green;
+
+}
+/*js ui*/
+
+ .ui-accordion .ui-accordion-header {
+color: white;
+    font-size: 20px;
+ }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid gold;
+    background:#0eafb5;
+    color: black;
+    
+}
+
+
+.question-title
+{
+ box-shadow: 2px 2px 4px #1ac92f;
+}
+
+
+
+/*MIXIT AREA BLOG PART*/
+
+
+
+
+
+
+
+
+

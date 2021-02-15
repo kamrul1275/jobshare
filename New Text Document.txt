@@ -1,0 +1,5 @@
+git init -> file inisialaization er jonno
+
+git status -> file gula check kora
+git add .  -> sob gula file select kora, r . na dile mention kore dite hobe.
+git commit -m "first commit"

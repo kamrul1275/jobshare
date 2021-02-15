@@ -1,0 +1,93 @@
+
+
+
+@@@@@@@@@@@@@@@ html@@@@@@@@@@@@@@@@@@@@@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue</title>
+</head>
+<body>
+
+
+
+<div id="test">
+
+
+<input type="text" placeholder="New Item" v-model="item">
+<button @click="addnewitem">Add Item</button>
+
+
+<ul>
+
+    <li v-for="(skill, index) in skills">
+        {{skill}}   <button @click="removeitem(index)">remove</button>
+
+    </li>
+</ul>
+
+
+</div>
+
+<script src="js/vue.js"></script>
+
+
+<script src="js/custome.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### custom work##################
+
+var vm = new Vue({
+   
+el: "#test",
+
+data: {
+ item: null,
+skills:["html","css", "javascript", "vue.js"]
+
+},
+
+methods:{
+  addnewitem(){
+if (this.item != null){
+
+  this.skills.push( this.item);
+  this.item=null;
+
+
+} else{
+  alert("please fillup the box");
+}
+
+  },
+
+
+removeitem: function(index){
+  this.skills.splice(index,1);
+
+}
+
+
+}
+
+
+  });
